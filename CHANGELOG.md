@@ -1,7 +1,201 @@
 # Changelog
 
-## [v1.18.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.18.0) (2021-01-13)
+## [v1.29.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.29.0) (2024-06-10)
 
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.28.0...v1.29.0)
+
+**Closed issues:**
+
+- Write supported ruby version explicitly [\#311](https://github.com/line/line-bot-sdk-ruby/issues/311)
+- Bug Report [\#291](https://github.com/line/line-bot-sdk-ruby/issues/291)
+
+**Merged pull requests:**
+
+- feat: Support LINE notification messages API [\#326](https://github.com/line/line-bot-sdk-ruby/pull/326) ([linhnv](https://github.com/linhnv))
+- chore\(deps\): update dependency rubocop to '~\> 1.64.0' [\#325](https://github.com/line/line-bot-sdk-ruby/pull/325) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update actions/checkout digest to a5ac7e5 [\#324](https://github.com/line/line-bot-sdk-ruby/pull/324) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update actions/checkout digest to 0ad4b8f [\#322](https://github.com/line/line-bot-sdk-ruby/pull/322) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update actions/checkout digest to 1d96c77 [\#321](https://github.com/line/line-bot-sdk-ruby/pull/321) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency rubocop to '~\> 1.63.0' [\#319](https://github.com/line/line-bot-sdk-ruby/pull/319) ([renovate[bot]](https://github.com/apps/renovate))
+- Delete unused travis-ci url from README.md [\#318](https://github.com/line/line-bot-sdk-ruby/pull/318) ([Yang-33](https://github.com/Yang-33))
+- Drop Ruby 3.0 support [\#317](https://github.com/line/line-bot-sdk-ruby/pull/317) ([Yang-33](https://github.com/Yang-33))
+- chore\(deps\): update dependency rubocop to '~\> 1.62.0' [\#316](https://github.com/line/line-bot-sdk-ruby/pull/316) ([renovate[bot]](https://github.com/apps/renovate))
+- Remove unnecessary urls from README [\#315](https://github.com/line/line-bot-sdk-ruby/pull/315) ([Yang-33](https://github.com/Yang-33))
+- Drop Ruby 2.7 and support Ruby 3.2 & 3.3 [\#313](https://github.com/line/line-bot-sdk-ruby/pull/313) ([Yang-33](https://github.com/Yang-33))
+- chore\(deps\): update actions/stale action to v9 [\#310](https://github.com/line/line-bot-sdk-ruby/pull/310) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency rubocop to '~\> 1.60.0' [\#309](https://github.com/line/line-bot-sdk-ruby/pull/309) ([renovate[bot]](https://github.com/apps/renovate))
+- Import release.yml to generate release note automatically based on label [\#308](https://github.com/line/line-bot-sdk-ruby/pull/308) ([Yang-33](https://github.com/Yang-33))
+- Enable merge queue [\#307](https://github.com/line/line-bot-sdk-ruby/pull/307) ([Yang-33](https://github.com/Yang-33))
+- Close stale issue automatically [\#306](https://github.com/line/line-bot-sdk-ruby/pull/306) ([Yang-33](https://github.com/Yang-33))
+- chore\(deps\): update dependency rubocop to '~\> 1.57.0' [\#305](https://github.com/line/line-bot-sdk-ruby/pull/305) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update actions/checkout digest to b4ffde6 [\#303](https://github.com/line/line-bot-sdk-ruby/pull/303) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update actions/checkout action to v4 [\#300](https://github.com/line/line-bot-sdk-ruby/pull/300) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency rubocop to '~\> 1.56.0' [\#298](https://github.com/line/line-bot-sdk-ruby/pull/298) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency rubocop to '~\> 1.55.0' [\#297](https://github.com/line/line-bot-sdk-ruby/pull/297) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency rubocop to '~\> 1.54.0' [\#293](https://github.com/line/line-bot-sdk-ruby/pull/293) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency rubocop to '~\> 1.53.0' [\#290](https://github.com/line/line-bot-sdk-ruby/pull/290) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency rubocop to '~\> 1.52.0' [\#289](https://github.com/line/line-bot-sdk-ruby/pull/289) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency rubocop to '~\> 1.51.0' [\#288](https://github.com/line/line-bot-sdk-ruby/pull/288) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency rubocop to '~\> 1.50.0' [\#287](https://github.com/line/line-bot-sdk-ruby/pull/287) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency rubocop to '~\> 1.49.0' [\#286](https://github.com/line/line-bot-sdk-ruby/pull/286) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.28.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.28.0) (2023-03-14)
+
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.27.0...v1.28.0)
+
+**Merged pull requests:**
+
+- Release v1.28.0 [\#285](https://github.com/line/line-bot-sdk-ruby/pull/285) ([zenizh](https://github.com/zenizh))
+- feat: support the Audience Match API [\#284](https://github.com/line/line-bot-sdk-ruby/pull/284) ([Sean0628](https://github.com/Sean0628))
+- Update dependency rubocop to '~\> 1.48.0' [\#281](https://github.com/line/line-bot-sdk-ruby/pull/281) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency rubocop to '~\> 1.47.0' [\#280](https://github.com/line/line-bot-sdk-ruby/pull/280) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency rubocop to '~\> 1.46.0' [\#279](https://github.com/line/line-bot-sdk-ruby/pull/279) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency rubocop to '~\> 1.45.0' [\#278](https://github.com/line/line-bot-sdk-ruby/pull/278) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.27.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.27.0) (2023-02-08)
+
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.26.0...v1.27.0)
+
+**Closed issues:**
+
+- Create chat bot with conversation loop and save message to database [\#272](https://github.com/line/line-bot-sdk-ruby/issues/272)
+- Messaging API - January 2021 update [\#215](https://github.com/line/line-bot-sdk-ruby/issues/215)
+
+**Merged pull requests:**
+
+- Release v1.27.0 [\#277](https://github.com/line/line-bot-sdk-ruby/pull/277) ([zenizh](https://github.com/zenizh))
+- Implement get\_narrowcast\_message\_status [\#276](https://github.com/line/line-bot-sdk-ruby/pull/276) ([dlackty](https://github.com/dlackty))
+- Update dependency rubocop to '~\> 1.44.0' [\#275](https://github.com/line/line-bot-sdk-ruby/pull/275) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency rubocop to '~\> 1.43.0' [\#274](https://github.com/line/line-bot-sdk-ruby/pull/274) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency rubocop to '~\> 1.40.0' [\#273](https://github.com/line/line-bot-sdk-ruby/pull/273) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency rubocop to '~\> 1.39.0' [\#271](https://github.com/line/line-bot-sdk-ruby/pull/271) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.26.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.26.0) (2022-11-09)
+
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.25.0...v1.26.0)
+
+**Closed issues:**
+
+- Validating message objects [\#267](https://github.com/line/line-bot-sdk-ruby/issues/267)
+- Validate rich menu object [\#256](https://github.com/line/line-bot-sdk-ruby/issues/256)
+- DateTimePicker Action is not working properly [\#250](https://github.com/line/line-bot-sdk-ruby/issues/250)
+
+**Merged pull requests:**
+
+- Release v1.26.0 [\#270](https://github.com/line/line-bot-sdk-ruby/pull/270) ([zenizh](https://github.com/zenizh))
+- Update dependency rubocop to '~\> 1.38.0' [\#269](https://github.com/line/line-bot-sdk-ruby/pull/269) ([renovate[bot]](https://github.com/apps/renovate))
+- Add APIs to validate message objects [\#268](https://github.com/line/line-bot-sdk-ruby/pull/268) ([zenizh](https://github.com/zenizh))
+- Update dependency rubocop to '~\> 1.37.0' [\#266](https://github.com/line/line-bot-sdk-ruby/pull/266) ([renovate[bot]](https://github.com/apps/renovate))
+- Update CI target version of the ruby [\#265](https://github.com/line/line-bot-sdk-ruby/pull/265) ([tokuhirom](https://github.com/tokuhirom))
+- Update actions/checkout action to v3 [\#263](https://github.com/line/line-bot-sdk-ruby/pull/263) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency rubocop to '~\> 1.36.0' [\#262](https://github.com/line/line-bot-sdk-ruby/pull/262) ([renovate[bot]](https://github.com/apps/renovate))
+- Configure Renovate [\#261](https://github.com/line/line-bot-sdk-ruby/pull/261) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.25.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.25.0) (2022-07-13)
+
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.24.0...v1.25.0)
+
+**Closed issues:**
+
+- Incorrect description of types specifier list in Rdoc [\#257](https://github.com/line/line-bot-sdk-ruby/issues/257)
+
+**Merged pull requests:**
+
+- Release v1.25.0 [\#260](https://github.com/line/line-bot-sdk-ruby/pull/260) ([zenizh](https://github.com/zenizh))
+- create validate\_rich\_menu method [\#259](https://github.com/line/line-bot-sdk-ruby/pull/259) ([kenta-takeuchi](https://github.com/kenta-takeuchi))
+- fix types specifier list in Rdoc [\#258](https://github.com/line/line-bot-sdk-ruby/pull/258) ([kenta-takeuchi](https://github.com/kenta-takeuchi))
+
+## [v1.24.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.24.0) (2022-05-30)
+
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.23.0...v1.24.0)
+
+**Merged pull requests:**
+
+- Release v1.24.0 [\#254](https://github.com/line/line-bot-sdk-ruby/pull/254) ([zenizh](https://github.com/zenizh))
+- Add ID token verification endpoint [\#253](https://github.com/line/line-bot-sdk-ruby/pull/253) ([yskkin](https://github.com/yskkin))
+
+## [v1.23.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.23.0) (2022-01-27)
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.22.0...v1.23.0)
+
+**Closed issues:**
+
+- Support get statistics per aggregation unit [\#219](https://github.com/line/line-bot-sdk-ruby/issues/219)
+
+**Merged pull requests:**
+
+- Release v1.23.0 [\#249](https://github.com/line/line-bot-sdk-ruby/pull/249) ([kimoto](https://github.com/kimoto))
+- Add custom aggregation units API [\#247](https://github.com/line/line-bot-sdk-ruby/pull/247) ([yskkin](https://github.com/yskkin))
+- Get the follower ids with a limit [\#246](https://github.com/line/line-bot-sdk-ruby/pull/246) ([zenizh](https://github.com/zenizh))
+- additional request body for push\_message and multicast [\#245](https://github.com/line/line-bot-sdk-ruby/pull/245) ([yskkin](https://github.com/yskkin))
+- add kitchensink README.md [\#243](https://github.com/line/line-bot-sdk-ruby/pull/243) ([4geru](https://github.com/4geru))
+- add echo bot README.md [\#242](https://github.com/line/line-bot-sdk-ruby/pull/242) ([4geru](https://github.com/4geru))
+- add rich menu sample code [\#241](https://github.com/line/line-bot-sdk-ruby/pull/241) ([4geru](https://github.com/4geru))
+
+## [v1.22.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.22.0) (2021-09-28)
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.21.0...v1.22.0)
+
+**Closed issues:**
+
+- Support imageSet fields in webhook event [\#236](https://github.com/line/line-bot-sdk-ruby/issues/236)
+
+**Merged pull requests:**
+
+- add update/get/get\_list rich\_menu\_alias [\#237](https://github.com/line/line-bot-sdk-ruby/pull/237) ([4geru](https://github.com/4geru))
+- Don't require channel\_id & channel\_secret when call api related to JWT [\#240](https://github.com/line/line-bot-sdk-ruby/pull/240) ([koukikitamura](https://github.com/koukikitamura))
+- Release/v1.22.0 [\#239](https://github.com/line/line-bot-sdk-ruby/pull/239) ([kimoto](https://github.com/kimoto))
+
+## [v1.21.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.21.0) (2021-08-18)
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.20.0...v1.21.0)
+
+**Fixed bugs:**
+
+- Invalid reply token [\#199](https://github.com/line/line-bot-sdk-ruby/issues/199)
+
+**Closed issues:**
+
+- Support Channel access token v2.1 [\#179](https://github.com/line/line-bot-sdk-ruby/issues/179)
+
+**Merged pull requests:**
+
+- Release/v1.21.0 [\#235](https://github.com/line/line-bot-sdk-ruby/pull/235) ([kimoto](https://github.com/kimoto))
+- Support channel access token v2.1 [\#190](https://github.com/line/line-bot-sdk-ruby/pull/190) ([kimoto](https://github.com/kimoto))
+
+## [v1.20.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.20.0) (2021-07-19)
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.19.0...v1.20.0)
+
+**Closed issues:**
+
+- Dependabot can't resolve your Ruby dependency files [\#227](https://github.com/line/line-bot-sdk-ruby/issues/227)
+- Dependabot can't resolve your Ruby dependency files [\#226](https://github.com/line/line-bot-sdk-ruby/issues/226)
+- Dependabot can't resolve your Ruby dependency files [\#225](https://github.com/line/line-bot-sdk-ruby/issues/225)
+- Dependabot can't resolve your Ruby dependency files [\#224](https://github.com/line/line-bot-sdk-ruby/issues/224)
+- Dependabot can't resolve your Ruby dependency files [\#223](https://github.com/line/line-bot-sdk-ruby/issues/223)
+- Dependabot can't resolve your Ruby dependency files [\#222](https://github.com/line/line-bot-sdk-ruby/issues/222)
+- Support follower IDs API [\#216](https://github.com/line/line-bot-sdk-ruby/issues/216)
+- Support Redelivery object for narrowcast messages [\#200](https://github.com/line/line-bot-sdk-ruby/issues/200)
+
+**Merged pull requests:**
+
+- create set\_rich\_menu\_alias and unset\_rich\_menu\_alias method [\#233](https://github.com/line/line-bot-sdk-ruby/pull/233) ([4geru](https://github.com/4geru))
+- Update rubocop 0.56.0 -\> 1.12.1 [\#231](https://github.com/line/line-bot-sdk-ruby/pull/231) ([tokuhirom](https://github.com/tokuhirom))
+- Upgrade to GitHub-native Dependabot [\#230](https://github.com/line/line-bot-sdk-ruby/pull/230) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Upgrade minimum ruby version to 2.4 [\#228](https://github.com/line/line-bot-sdk-ruby/pull/228) ([toduq](https://github.com/toduq))
+- Release 1.19.0 [\#221](https://github.com/line/line-bot-sdk-ruby/pull/221) ([kimoto](https://github.com/kimoto))
+
+## [v1.19.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.19.0) (2021-03-22)
+[Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.18.0...v1.19.0)
+
+**Closed issues:**
+
+- Messaging API - October 2020 update [\#201](https://github.com/line/line-bot-sdk-ruby/issues/201)
+
+**Merged pull requests:**
+
+- \[proposal\] Make src accessible from event object [\#220](https://github.com/line/line-bot-sdk-ruby/pull/220) ([Yuki-Inoue](https://github.com/Yuki-Inoue))
+- Remove unneeded before block [\#218](https://github.com/line/line-bot-sdk-ruby/pull/218) ([chocoby](https://github.com/chocoby))
+- Support follower IDs API [\#217](https://github.com/line/line-bot-sdk-ruby/pull/217) ([chocoby](https://github.com/chocoby))
+
+## [v1.18.0](https://github.com/line/line-bot-sdk-ruby/tree/v1.18.0) (2021-01-13)
 [Full Changelog](https://github.com/line/line-bot-sdk-ruby/compare/v1.17.0...v1.18.0)
 
 **Closed issues:**
@@ -12,6 +206,7 @@
 
 **Merged pull requests:**
 
+- Release 1.18.0 [\#214](https://github.com/line/line-bot-sdk-ruby/pull/214) ([ryota-sakamoto](https://github.com/ryota-sakamoto))
 - support test webhook endpoint [\#213](https://github.com/line/line-bot-sdk-ruby/pull/213) ([ryota-sakamoto](https://github.com/ryota-sakamoto))
 - support set webhook endpoint  [\#212](https://github.com/line/line-bot-sdk-ruby/pull/212) ([ryota-sakamoto](https://github.com/ryota-sakamoto))
 - Add ruby v3.0 for pull request CI [\#211](https://github.com/line/line-bot-sdk-ruby/pull/211) ([toduq](https://github.com/toduq))

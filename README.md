@@ -1,6 +1,6 @@
 # LINE Messaging API SDK for Ruby
 
-[![Gem-version](https://img.shields.io/gem/v/line-bot-api.svg)](https://rubygems.org/gems/line-bot-api) [![Build Status](https://travis-ci.org/line/line-bot-sdk-ruby.svg?branch=master)](https://travis-ci.org/line/line-bot-sdk-ruby)
+[![Gem-version](https://img.shields.io/gem/v/line-bot-api.svg)](https://rubygems.org/gems/line-bot-api)
 
 
 ## Introduction
@@ -16,6 +16,9 @@ See the official API documentation for more information
 Also, generated documentation by YARD is available.
 
 - https://rubydoc.info/gems/line-bot-api
+
+## Requirements
+This library requires Ruby 3.1 or later.
 
 ## Installation
 
@@ -89,11 +92,7 @@ end
 ## Help and media
 FAQ: https://developers.line.biz/en/faq/
 
-Community Q&A: https://www.line-community.me/questions
-
 News: https://developers.line.biz/en/news/
-
-Twitter: @LINE_DEV 
 
 ## Versioning
 This project respects semantic versioning.
